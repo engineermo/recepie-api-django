@@ -2,8 +2,8 @@ FROM python:3.7.2-alpine3.9
 MAINTAINER dia
 
 ENV PYTHONUNBUFFERED 1
-ENV http_proxy http://proxyvipfmcc.nb.ford.com:83/
-ENV https_proxy http://proxyvipfmcc.nb.ford.com:83/
+#ENV http_proxy http://proxyvipfmcc.nb.ford.com:83/
+#ENV https_proxy http://proxyvipfmcc.nb.ford.com:83/
 
 
 COPY ./requirements.txt /requirements.txt
